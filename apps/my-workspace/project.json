@@ -53,7 +53,8 @@
           "buildTarget": "my-workspace:build:production"
         },
         "development": {
-          "buildTarget": "my-workspace:build:development"
+          "buildTarget": "my-workspace:build:development",
+          "proxyConfig": "apps/my-workspace/proxy.conf.json"
         }
       },
       "defaultConfiguration": "development"

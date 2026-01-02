@@ -44,3 +44,13 @@ Thumbs.db
 .angular
 
 __screenshots__/
+
+/generated/prisma
+
+# Local environment variables (DO NOT COMMIT)
+.env
+.env.* 
+!.env.example
+
+# Local scripts / commands folder (if machine-specific)
+cmd/
