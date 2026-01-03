@@ -54,3 +54,5 @@ back : npx nx serve api
 angular : npx nx serve my-workspace
 
 les deux en meme temp : npx nx run-many -t serve -p api my-workspace --parallel=2
+
+npx nx g @nx/angular:component --path=apps/my-workspace/src/app/layout/header/header.component.ts --standalone
